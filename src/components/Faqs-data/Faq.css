@@ -1,0 +1,20 @@
+.faq {
+  margin: 1rem;
+  background-color: rgb(229, 231, 233);
+  padding: 1rem;
+  border-radius: 0.6rem;
+  box-shadow: 0.1rem 0.1rem #2c2c2c;
+}
+
+.faq div {  
+  display: block;
+  justify-content: space-between;
+}
+.button {
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+p {
+  font-weight: bold;
+}
