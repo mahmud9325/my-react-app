@@ -39,51 +39,51 @@ import { v4 as uuidv4 } from 'uuid'
 //     return state;
 // }
 
-function UserForm() {
+// function UserForm() {
 
-    // const [bookState, dispatch] = useReducer(reducer, {
-    //     books: booksList,
-    //     isModal: false,
-    //     modalText: ""
-    // });
+//     const [bookState, dispatch] = useReducer(reducer, {
+//         books: booksList,
+//         isModal: false,
+//         modalText: ""
+//     });
 
-    // const [bookName, setBookName] = useState("");
+//     const [bookName, setBookName] = useState("");
 
-    // const handleChange = (e) => {
-    //     setBookName(e.target.value);
+//     const handleChange = (e) => {
+//         setBookName(e.target.value);
 
-    // }
+//     }
 
-    // const handleSubmit = (e) => {
-    //     e.preventDefault();
-    //     const newBook = { id: uuidv4(), name: bookName }
-    //     dispatch({ type: "ADD", payload: newBook });
-    //     setBookName("");
-    // };
+//     const handleSubmit = (e) => {
+//         e.preventDefault();
+//         const newBook = { id: uuidv4(), name: bookName }
+//         dispatch({ type: "ADD", payload: newBook });
+//         setBookName("");
+//     };
 
-    // const removeBtn = (id) => {
-    //     dispatch({ type: "REMOVE", payload: id })
-    // }
+//     const removeBtn = (id) => {
+//         dispatch({ type: "REMOVE", payload: id })
+//     }
 
-    return (
-        <div>
-            {/* <h1>Books List</h1>
-            <form onSubmit={handleSubmit}>
-                <input type="text" value={bookName} onChange={handleChange} /><br /><br />
-                <button>Add Book</button>
-            </form><br />
-            {bookState.isModal && <Modal modalText={bookState.modalText} />}
-            {bookState.books.map((book) => {
-                const { id, name } = book;
-                return <li key={id}>
-                    {name}
-                    <button onClick={() => { removeBtn(id) }}>Remove</button>
-                </li>
-            })} */}
+//     return (
+//         <div>
+//             <h1>Books List</h1>
+//             <form onSubmit={handleSubmit}>
+//                 <input type="text" value={bookName} onChange={handleChange} /><br /><br />
+//                 <button>Add Book</button>
+//             </form><br />
+//             {bookState.isModal && <Modal modalText={bookState.modalText} />}
+//             {bookState.books.map((book) => {
+//                 const { id, name } = book;
+//                 return <li key={id}>
+//                     {name}
+//                     <button onClick={() => { removeBtn(id) }}>Remove</button>
+//                 </li>
+//             })}
 
             
-        </div>
-    )
-}
+//         </div>
+//     )
+// }
 
-export default UserForm
+// export default UserForm

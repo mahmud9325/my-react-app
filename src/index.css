@@ -14,3 +14,55 @@ h3,
 p {
   margin: 1rem 0;
 }
+
+.users {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  text-align: center;
+  margin: 20px;
+
+}
+
+.user {
+  background-color: bisque;
+  padding: 10px;
+}
+
+.delete {
+  padding: 7px 15px;
+  font-size: larger;
+  background-color: aquamarine;
+  border-radius: 5px;
+  border: none;
+  transition: 0.5s;
+}
+
+.delete:hover {
+  background-color: brown;
+  color: white;
+}
+
+form {
+  margin: 40px;
+}
+
+input {
+  padding: 7px 30px;
+}
+
+button {
+  margin: 0 10px;
+  padding: 7px 15px;
+  font-size: larger;
+  background-color: aquamarine;
+  border-radius: 5px;
+  border: none;
+  transition: 0.5s;
+}
+button:hover {
+  background-color: yellow;
+}
+h1 {
+  margin: 0 20px;
+}
