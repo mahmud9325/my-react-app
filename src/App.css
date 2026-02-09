@@ -1,0 +1,50 @@
+nav {
+    display: flex;
+    justify-content: center;
+    margin: 10px 20px;
+    background-color: rgb(3, 63, 71);
+    padding: 20px 0;
+}
+.nav-link {
+    color: white;
+    margin: 0 10px;
+    font-size: larger;
+    text-decoration: none;
+
+}
+.nav-link:hover {
+    color: red;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    text-align: center;
+}
+
+article{
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+@media screen and (min-width: 360px) {
+    section{
+        grid-template-columns: auto ;
+        margin: 20px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    section{
+        grid-template-columns: auto auto ;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    section{
+        grid-template-columns: auto auto auto;
+    }
+}
+
+
